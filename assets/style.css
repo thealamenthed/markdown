@@ -98,3 +98,8 @@ nav ul li:hover, nav ul li a:hover {
 .light_mode {
     display: none;
 }
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+}
