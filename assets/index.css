@@ -35,15 +35,22 @@ h1 {
     background-size: cover;
 }
 
+#vogueedition{
+    padding: 24rem 0;
+    margin-bottom: 7rem;
+    color: white;
+    font-size: 3rem;
+    background-image: url("/assets/img/2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 h1, img {
     text-align: center;
 }
 
 td img {
-    width: 37rem;
-
-
-
+    width: 36rem;
 }
 
 hr {
@@ -151,7 +158,24 @@ table{
 table:nth-child(2) tr td {
     background: red;
   }
+p:nth-of-type(4) img {
+    margin-left: -21rem;
+    width: 72rem;
 
+}
+p:nth-of-type(5) img {
+    margin-left: -21rem;
+    width: 72rem;
+}
+
+p:nth-of-type(6) img {
+    margin-left: -21rem;
+    width: 72rem;
+}
+
+table:nth-of-type(2) p{
+    width: 40%;
+}
 
 footer{
     background: #ffffff;
@@ -182,4 +206,31 @@ footer{
     font-size: 10px;
     margin: 0px 19px;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Media queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .nav {
+        display: none;
+    }
+
+
+    .container td {
+        width: 1.5rem;
+    }
+
+    .title {
+        width: 90%;
+    }
+    .title h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
 }

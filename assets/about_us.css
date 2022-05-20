@@ -25,15 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1rem 0  .5rem 0;
 }
 
-h1 {
-    padding: 24rem 0;
-    margin-bottom: 7rem;
-    color: white;
-    font-size: 3rem;
-    background-image: url("/assets/img/img_home.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 
 h1, img {
     text-align: center;
@@ -63,7 +55,7 @@ nav, nav ul {
 }
 
 nav {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 6rem;
     padding: .5rem 1rem;
@@ -102,6 +94,15 @@ nav ul li a:hover, .active {
     color: #c3d0e4;
     transition: 400ms ease-in;
 }
+h1 {
+    padding: 24rem 0;
+    margin-bottom: -16rem;
+    color: #f9ead7;
+    font-size: 2rem;
+    background-image: url("/assets/img/Our_team.gif");
+    background-size: cover;
+    background-position: top center;
+}
 
 body {
     background: #F6F4FF;
@@ -109,13 +110,12 @@ body {
 
 .container p{
     text-align: justify;
-    margin: 10px;
     padding: 40px;
     font-family: 'Montserrat';
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 90%;
 }
 
 .container p:nth-of-type(2) {
@@ -149,8 +149,15 @@ table{
 }
 
 table:nth-child(2) tr td {
-    background: red;
-  }
+    text-align: center;
+    background: antiquewhite;
+    padding: 32px;
+    border: 17px solid #c3ada0;
+}
+
+table:nth-child(2) thead tr th {
+    padding: 32px;
+}
 
 
 footer{

@@ -28,11 +28,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     padding: 24rem 0;
     margin-bottom: 7rem;
-    color: white;
+    color: rgb(196, 111, 111);
     font-size: 3rem;
-    background-image: url("/assets/img/img_home.jpg");
+    background-image: url("/assets/img/creative.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: top center;
 }
 
 h1, img {
@@ -41,9 +42,6 @@ h1, img {
 
 td img {
     width: 37rem;
-
-
-
 }
 
 hr {
@@ -71,8 +69,9 @@ nav {
     justify-content: space-between;
     background-color: #ffffff;
     border-bottom: .015rem solid rgba(0, 0, 0, .2);
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
 }
+
 
 .logo img{
     width: 94px;
@@ -104,7 +103,7 @@ nav ul li a:hover, .active {
 }
 
 body {
-    background: #F6F4FF;
+    background: #ffffff;
 }
 
 .container p{
@@ -139,6 +138,18 @@ p:nth-of-type(3) img {
     width: 80%;
 }
 
+tbody:nth-child(2) tr td {
+
+    text-align: justify;
+    width: 44%
+  }
+
+
+  tbody:nth-child(3) tr td {
+  width: 74rem;
+}
+
+
 table{
     width: 100%;
     overflow-x: scroll;
@@ -148,9 +159,6 @@ table{
 
 }
 
-table:nth-child(2) tr td {
-    background: red;
-  }
 
 
 footer{
